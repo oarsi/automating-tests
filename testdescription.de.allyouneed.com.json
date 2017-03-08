@@ -1,0 +1,21 @@
+{
+  "name": "de.allyouneed.com",
+  "pagesToTest": [
+    {
+		"pageURL": "https://de.allyouneed.com/de/home.html",
+		"jQueryLoaded": true,
+		"dataLayerElementExists": [ 
+			"datalayer.page.pageInfo.language" 
+		],
+		"dataLayerElementValue": [
+			{ "name": "digitalData.page.pageInfo.pageName", "value": "MP:Home:marketplace_homepage" }
+		],
+		"adobe.DTMLoaded": true,
+		"adobe.DTMLibraryName": "satelliteLib-ac2e8677d61a8db9751013b980bf1b32782a06cd",
+		"adobe.AnalyticsCodeLoaded": true,
+		"adobe.DTMDataElementValue": { "name": "pageName", "value": "MP:Home:marketplace_homepage" },
+		"adobe.DTMPageLoadRuleExists": "pageName SessionStorage",
+		"adobe.DTMRuleHasRun": "pageName SessionStorage"
+ 	}
+  ]
+}
